@@ -1,0 +1,210 @@
+.icone:first-child{
+    margin-left: 12px;
+}
+
+.icone:last-child{
+    margin-left: 8px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa !important;
+    color: black !important
+}
+
+.page{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content-page{
+    max-width: 1200px !important;
+    margin: 20px;
+}
+
+.img-thumbnail {
+    margin: 20px;
+}
+
+.logo2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    filter: drop-shadow(10px 11px 2px #00000075);
+}
+
+.sub-cafe{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.images{
+    margin-bottom: 50px;
+}
+
+.images div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.img-thumbnail {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.hr{
+    border-radius: 3px;
+    width: 85%;
+    margin-bottom: 80px;
+    border-top: 3px solid rgb(0 0 0 / 26%);
+}
+
+.hr2{
+    border-radius: 3px;
+    width: 85%;
+    margin-bottom: 50px;
+    border-top: 3px solid rgb(0 0 0 / 26%);
+}
+
+.login-form{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    box-shadow: 7px 9px 6px 2px #392b0080;
+}
+
+.sub-login{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sub-dashboard{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+form{
+    text-align: start;
+    height: 350px;
+}
+
+.navbar-brand:first-child:hover{
+    cursor: pointer;
+}
+
+.possuo{
+    margin-top: 10px;
+}
+
+.dashboard-card{
+    width: 1100px;
+    min-height: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    box-shadow: 7px 9px 6px 2px #392b0080; 
+}
+
+.dash-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.table {
+    th,
+    td {
+      vertical-align: top;
+      word-break: break-all !important;
+    }
+  
+    thead th {
+      vertical-align: bottom;
+      word-break: break-all !important;
+    }
+}
+
+.dash-nav a{
+    background-color: rgb(211, 211, 211);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.dash-nav a:hover{
+    background-color: rgb(184, 184, 184);
+    transition: 0.2s;
+}
+
+.escolha-dash{
+    margin-bottom: 50px;
+}
+
+.escolha-dash a{
+    user-select: none;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.escolha-nav{
+    display: flex;
+    gap: 0px !important;
+}
+
+.escolha-nav li:first-child a{
+    background-color: white;
+    border-radius: 30px 0px 0px 30px;
+    padding-left: 30px;
+}
+
+.lis{
+    background-color: white !important;
+    border-radius: 0px !important;
+    padding-left: 30px;
+}
+
+.lis:hover{
+    background-color: rgb(136, 136, 136) !important;
+}
+
+.escolha-nav li:last-child a{
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    padding-right: 30px;
+}
+
+.escolha-nav a:hover{
+    background-color: rgb(136, 136, 136);
+}
+
+.escolha-nav li a:hover{
+    background-color: rgb(136, 136, 136);
+}

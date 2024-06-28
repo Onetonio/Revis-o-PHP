@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(130, 72, 22) !important;
+}
+
+.kanit-regular{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-body{
+    cursor: pointer;
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: black;
+ }
+
+.icone{
+    margin-right: 8px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 50px;
+    max-width: 1200px;
+}
+
+.content{
+    padding-top: 50px;
+    /* width: 100vw; */
+    min-height: 800px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+.card-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.p{
+    border-radius: 100px; 
+}
+
+.boxes{
+    height: 1000px;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+    margin-right: 15px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: black;
+    text-decoration: none;
+}
